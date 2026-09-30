@@ -8,7 +8,7 @@ jobs:
       - name: checkout repostory
         uses: actions/checkout@v4
       - name: print welcome
-        run: echo "welcome to build"background:   
+        run: echo "welcome to build" 
       - name: print present working directory
         run: pwd
       
